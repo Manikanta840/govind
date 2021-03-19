@@ -1,6 +1,5 @@
 ---
   - hosts: localhost
-    ansible_connection: local
     become: yes
     tasks:
       - name: install nginx
